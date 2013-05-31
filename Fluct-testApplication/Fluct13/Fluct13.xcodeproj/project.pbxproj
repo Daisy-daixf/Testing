@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B72E18B0155A70980097FAA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E18AF155A70980097FAA1 /* UIKit.framework */; };
+		B72E18B2155A70980097FAA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E18B1155A70980097FAA1 /* Foundation.framework */; };
+		B72E18B4155A70980097FAA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E18B3155A70980097FAA1 /* CoreGraphics.framework */; };
+		B72E18BA155A70980097FAA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B72E18B8155A70980097FAA1 /* InfoPlist.strings */; };
+		B72E18BC155A70980097FAA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E18BB155A70980097FAA1 /* main.m */; };
+		B72E18C0155A70980097FAA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E18BF155A70980097FAA1 /* AppDelegate.m */; };
+		B72E18C3155A70980097FAA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E18C2155A70980097FAA1 /* ViewController.m */; };
+		B72E18C6155A70980097FAA1 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B72E18C4155A70980097FAA1 /* ViewController_iPhone.xib */; };
+		B72E18C9155A70980097FAA1 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B72E18C7155A70980097FAA1 /* ViewController_iPad.xib */; };
+		B72E18D6155A70E00097FAA1 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E18D5155A70E00097FAA1 /* libxml2.dylib */; };
+		B72E18D8155A70E60097FAA1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E18D7155A70E60097FAA1 /* libsqlite3.dylib */; };
+		B72E18DA155A70EB0097FAA1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E18D9155A70EB0097FAA1 /* SystemConfiguration.framework */; };
+		F8E5E7B71758359B00BA4D53 /* libZucksAdnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E5E7B41758359B00BA4D53 /* libZucksAdnet.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B72E18AB155A70980097FAA1 /* Fluct13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluct13.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72E18AF155A70980097FAA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B72E18B1155A70980097FAA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B72E18B3155A70980097FAA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B72E18B7155A70980097FAA1 /* Fluct13-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fluct13-Info.plist"; sourceTree = "<group>"; };
+		B72E18B9155A70980097FAA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B72E18BB155A70980097FAA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B72E18BD155A70980097FAA1 /* Fluct13-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fluct13-Prefix.pch"; sourceTree = "<group>"; };
+		B72E18BE155A70980097FAA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B72E18BF155A70980097FAA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B72E18C1155A70980097FAA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B72E18C2155A70980097FAA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B72E18C5155A70980097FAA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B72E18C8155A70980097FAA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B72E18D5155A70E00097FAA1 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		B72E18D7155A70E60097FAA1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B72E18D9155A70EB0097FAA1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F8E5E7B41758359B00BA4D53 /* libZucksAdnet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libZucksAdnet.a; sourceTree = "<group>"; };
+		F8E5E7B51758359B00BA4D53 /* ZucksAdnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZucksAdnet.h; sourceTree = "<group>"; };
+		F8E5E7B61758359B00BA4D53 /* ZucksBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZucksBannerView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B72E18A8155A70980097FAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72E18DA155A70EB0097FAA1 /* SystemConfiguration.framework in Frameworks */,
+				B72E18D8155A70E60097FAA1 /* libsqlite3.dylib in Frameworks */,
+				B72E18D6155A70E00097FAA1 /* libxml2.dylib in Frameworks */,
+				B72E18B0155A70980097FAA1 /* UIKit.framework in Frameworks */,
+				B72E18B2155A70980097FAA1 /* Foundation.framework in Frameworks */,
+				B72E18B4155A70980097FAA1 /* CoreGraphics.framework in Frameworks */,
+				F8E5E7B71758359B00BA4D53 /* libZucksAdnet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B72E18A0155A70980097FAA1 = {
+			isa = PBXGroup;
+			children = (
+				B72E18D9155A70EB0097FAA1 /* SystemConfiguration.framework */,
+				B72E18D7155A70E60097FAA1 /* libsqlite3.dylib */,
+				B72E18D5155A70E00097FAA1 /* libxml2.dylib */,
+				B72E18B5155A70980097FAA1 /* Fluct13 */,
+				B72E18AE155A70980097FAA1 /* Frameworks */,
+				B72E18AC155A70980097FAA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B72E18AC155A70980097FAA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B72E18AB155A70980097FAA1 /* Fluct13.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B72E18AE155A70980097FAA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B72E18AF155A70980097FAA1 /* UIKit.framework */,
+				B72E18B1155A70980097FAA1 /* Foundation.framework */,
+				B72E18B3155A70980097FAA1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B72E18B5155A70980097FAA1 /* Fluct13 */ = {
+			isa = PBXGroup;
+			children = (
+				F8E5E7B21758359B00BA4D53 /* Resources */,
+				B72E18BE155A70980097FAA1 /* AppDelegate.h */,
+				B72E18BF155A70980097FAA1 /* AppDelegate.m */,
+				B72E18C1155A70980097FAA1 /* ViewController.h */,
+				B72E18C2155A70980097FAA1 /* ViewController.m */,
+				B72E18C4155A70980097FAA1 /* ViewController_iPhone.xib */,
+				B72E18C7155A70980097FAA1 /* ViewController_iPad.xib */,
+				B72E18B6155A70980097FAA1 /* Supporting Files */,
+			);
+			path = Fluct13;
+			sourceTree = "<group>";
+		};
+		B72E18B6155A70980097FAA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72E18B7155A70980097FAA1 /* Fluct13-Info.plist */,
+				B72E18B8155A70980097FAA1 /* InfoPlist.strings */,
+				B72E18BB155A70980097FAA1 /* main.m */,
+				B72E18BD155A70980097FAA1 /* Fluct13-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8E5E7B21758359B00BA4D53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8E5E7B31758359B00BA4D53 /* lib */,
+			);
+			name = Resources;
+			path = ../../Resources;
+			sourceTree = "<group>";
+		};
+		F8E5E7B31758359B00BA4D53 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F8E5E7B41758359B00BA4D53 /* libZucksAdnet.a */,
+				F8E5E7B51758359B00BA4D53 /* ZucksAdnet.h */,
+				F8E5E7B61758359B00BA4D53 /* ZucksBannerView.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B72E18AA155A70980097FAA1 /* Fluct13 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72E18CC155A70980097FAA1 /* Build configuration list for PBXNativeTarget "Fluct13" */;
+			buildPhases = (
+				B72E18A7155A70980097FAA1 /* Sources */,
+				B72E18A8155A70980097FAA1 /* Frameworks */,
+				B72E18A9155A70980097FAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fluct13;
+			productName = Fluct13;
+			productReference = B72E18AB155A70980097FAA1 /* Fluct13.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B72E18A2155A70980097FAA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B72E18A5155A70980097FAA1 /* Build configuration list for PBXProject "Fluct13" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B72E18A0155A70980097FAA1;
+			productRefGroup = B72E18AC155A70980097FAA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B72E18AA155A70980097FAA1 /* Fluct13 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B72E18A9155A70980097FAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72E18BA155A70980097FAA1 /* InfoPlist.strings in Resources */,
+				B72E18C6155A70980097FAA1 /* ViewController_iPhone.xib in Resources */,
+				B72E18C9155A70980097FAA1 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B72E18A7155A70980097FAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72E18BC155A70980097FAA1 /* main.m in Sources */,
+				B72E18C0155A70980097FAA1 /* AppDelegate.m in Sources */,
+				B72E18C3155A70980097FAA1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B72E18B8155A70980097FAA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72E18B9155A70980097FAA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B72E18C4155A70980097FAA1 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72E18C5155A70980097FAA1 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B72E18C7155A70980097FAA1 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72E18C8155A70980097FAA1 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B72E18CA155A70980097FAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B72E18CB155A70980097FAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B72E18CD155A70980097FAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fluct13/Fluct13-Prefix.pch";
+				INFOPLIST_FILE = "Fluct13/Fluct13-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Fluct13/Resources/lib\"",
+					"\"$(SRCROOT)/../Resources/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B72E18CE155A70990097FAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fluct13/Fluct13-Prefix.pch";
+				INFOPLIST_FILE = "Fluct13/Fluct13-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Fluct13/Resources/lib\"",
+					"\"$(SRCROOT)/../Resources/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B72E18A5155A70980097FAA1 /* Build configuration list for PBXProject "Fluct13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72E18CA155A70980097FAA1 /* Debug */,
+				B72E18CB155A70980097FAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72E18CC155A70980097FAA1 /* Build configuration list for PBXNativeTarget "Fluct13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72E18CD155A70980097FAA1 /* Debug */,
+				B72E18CE155A70990097FAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B72E18A2155A70980097FAA1 /* Project object */;
+}

@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B72E192E155A736E0097FAA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E192D155A736E0097FAA1 /* UIKit.framework */; };
+		B72E1930155A736E0097FAA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E192F155A736E0097FAA1 /* Foundation.framework */; };
+		B72E1932155A736E0097FAA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E1931155A736E0097FAA1 /* CoreGraphics.framework */; };
+		B72E1938155A736E0097FAA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B72E1936155A736E0097FAA1 /* InfoPlist.strings */; };
+		B72E193A155A736E0097FAA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E1939155A736E0097FAA1 /* main.m */; };
+		B72E193E155A736E0097FAA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E193D155A736E0097FAA1 /* AppDelegate.m */; };
+		B72E1941155A736E0097FAA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B72E1940155A736E0097FAA1 /* ViewController.m */; };
+		B72E1944155A736E0097FAA1 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B72E1942155A736E0097FAA1 /* ViewController_iPhone.xib */; };
+		B72E1947155A736E0097FAA1 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B72E1945155A736E0097FAA1 /* ViewController_iPad.xib */; };
+		B72E1954155A73A00097FAA1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E1953155A73A00097FAA1 /* libsqlite3.dylib */; };
+		B72E1956155A73AB0097FAA1 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E1955155A73AB0097FAA1 /* libxml2.dylib */; };
+		B72E1958155A73B30097FAA1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E1957155A73B30097FAA1 /* SystemConfiguration.framework */; };
+		F8E5E7C3175835CD00BA4D53 /* libZucksAdnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E5E7C0175835CD00BA4D53 /* libZucksAdnet.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B72E1929155A736E0097FAA1 /* Fluct15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluct15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72E192D155A736E0097FAA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B72E192F155A736E0097FAA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B72E1931155A736E0097FAA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B72E1935155A736E0097FAA1 /* Fluct15-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fluct15-Info.plist"; sourceTree = "<group>"; };
+		B72E1937155A736E0097FAA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B72E1939155A736E0097FAA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B72E193B155A736E0097FAA1 /* Fluct15-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fluct15-Prefix.pch"; sourceTree = "<group>"; };
+		B72E193C155A736E0097FAA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B72E193D155A736E0097FAA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B72E193F155A736E0097FAA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B72E1940155A736E0097FAA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B72E1943155A736E0097FAA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B72E1946155A736E0097FAA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B72E1953155A73A00097FAA1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B72E1955155A73AB0097FAA1 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		B72E1957155A73B30097FAA1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F8E5E7C0175835CD00BA4D53 /* libZucksAdnet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libZucksAdnet.a; sourceTree = "<group>"; };
+		F8E5E7C1175835CD00BA4D53 /* ZucksAdnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZucksAdnet.h; sourceTree = "<group>"; };
+		F8E5E7C2175835CD00BA4D53 /* ZucksBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZucksBannerView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B72E1926155A736E0097FAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72E1958155A73B30097FAA1 /* SystemConfiguration.framework in Frameworks */,
+				B72E1956155A73AB0097FAA1 /* libxml2.dylib in Frameworks */,
+				B72E1954155A73A00097FAA1 /* libsqlite3.dylib in Frameworks */,
+				B72E192E155A736E0097FAA1 /* UIKit.framework in Frameworks */,
+				B72E1930155A736E0097FAA1 /* Foundation.framework in Frameworks */,
+				B72E1932155A736E0097FAA1 /* CoreGraphics.framework in Frameworks */,
+				F8E5E7C3175835CD00BA4D53 /* libZucksAdnet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B72E191E155A736E0097FAA1 = {
+			isa = PBXGroup;
+			children = (
+				B72E1957155A73B30097FAA1 /* SystemConfiguration.framework */,
+				B72E1955155A73AB0097FAA1 /* libxml2.dylib */,
+				B72E1953155A73A00097FAA1 /* libsqlite3.dylib */,
+				B72E1933155A736E0097FAA1 /* Fluct15 */,
+				B72E192C155A736E0097FAA1 /* Frameworks */,
+				B72E192A155A736E0097FAA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B72E192A155A736E0097FAA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B72E1929155A736E0097FAA1 /* Fluct15.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B72E192C155A736E0097FAA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B72E192D155A736E0097FAA1 /* UIKit.framework */,
+				B72E192F155A736E0097FAA1 /* Foundation.framework */,
+				B72E1931155A736E0097FAA1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B72E1933155A736E0097FAA1 /* Fluct15 */ = {
+			isa = PBXGroup;
+			children = (
+				F8E5E7BE175835CD00BA4D53 /* Resources */,
+				B72E193C155A736E0097FAA1 /* AppDelegate.h */,
+				B72E193D155A736E0097FAA1 /* AppDelegate.m */,
+				B72E193F155A736E0097FAA1 /* ViewController.h */,
+				B72E1940155A736E0097FAA1 /* ViewController.m */,
+				B72E1942155A736E0097FAA1 /* ViewController_iPhone.xib */,
+				B72E1945155A736E0097FAA1 /* ViewController_iPad.xib */,
+				B72E1934155A736E0097FAA1 /* Supporting Files */,
+			);
+			path = Fluct15;
+			sourceTree = "<group>";
+		};
+		B72E1934155A736E0097FAA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72E1935155A736E0097FAA1 /* Fluct15-Info.plist */,
+				B72E1936155A736E0097FAA1 /* InfoPlist.strings */,
+				B72E1939155A736E0097FAA1 /* main.m */,
+				B72E193B155A736E0097FAA1 /* Fluct15-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8E5E7BE175835CD00BA4D53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8E5E7BF175835CD00BA4D53 /* lib */,
+			);
+			name = Resources;
+			path = ../../Resources;
+			sourceTree = "<group>";
+		};
+		F8E5E7BF175835CD00BA4D53 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F8E5E7C0175835CD00BA4D53 /* libZucksAdnet.a */,
+				F8E5E7C1175835CD00BA4D53 /* ZucksAdnet.h */,
+				F8E5E7C2175835CD00BA4D53 /* ZucksBannerView.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B72E1928155A736E0097FAA1 /* Fluct15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72E194A155A736E0097FAA1 /* Build configuration list for PBXNativeTarget "Fluct15" */;
+			buildPhases = (
+				B72E1925155A736E0097FAA1 /* Sources */,
+				B72E1926155A736E0097FAA1 /* Frameworks */,
+				B72E1927155A736E0097FAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fluct15;
+			productName = Fluct15;
+			productReference = B72E1929155A736E0097FAA1 /* Fluct15.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B72E1920155A736E0097FAA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B72E1923155A736E0097FAA1 /* Build configuration list for PBXProject "Fluct15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B72E191E155A736E0097FAA1;
+			productRefGroup = B72E192A155A736E0097FAA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B72E1928155A736E0097FAA1 /* Fluct15 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B72E1927155A736E0097FAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72E1938155A736E0097FAA1 /* InfoPlist.strings in Resources */,
+				B72E1944155A736E0097FAA1 /* ViewController_iPhone.xib in Resources */,
+				B72E1947155A736E0097FAA1 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B72E1925155A736E0097FAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72E193A155A736E0097FAA1 /* main.m in Sources */,
+				B72E193E155A736E0097FAA1 /* AppDelegate.m in Sources */,
+				B72E1941155A736E0097FAA1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B72E1936155A736E0097FAA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72E1937155A736E0097FAA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B72E1942155A736E0097FAA1 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72E1943155A736E0097FAA1 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B72E1945155A736E0097FAA1 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B72E1946155A736E0097FAA1 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B72E1948155A736E0097FAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B72E1949155A736E0097FAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B72E194B155A736E0097FAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fluct15/Fluct15-Prefix.pch";
+				INFOPLIST_FILE = "Fluct15/Fluct15-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Fluct15/Resources/lib\"",
+					"\"$(SRCROOT)/../Resources/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B72E194C155A736E0097FAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fluct15/Fluct15-Prefix.pch";
+				INFOPLIST_FILE = "Fluct15/Fluct15-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Fluct15/Resources/lib\"",
+					"\"$(SRCROOT)/../Resources/lib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B72E1923155A736E0097FAA1 /* Build configuration list for PBXProject "Fluct15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72E1948155A736E0097FAA1 /* Debug */,
+				B72E1949155A736E0097FAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72E194A155A736E0097FAA1 /* Build configuration list for PBXNativeTarget "Fluct15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72E194B155A736E0097FAA1 /* Debug */,
+				B72E194C155A736E0097FAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B72E1920155A736E0097FAA1 /* Project object */;
+}
