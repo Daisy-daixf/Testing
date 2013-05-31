@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Fluct16/Fluct16.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct15/Fluct15.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct14/Fluct14.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct13/Fluct13.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct12/Fluct12.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct11/Fluct11.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct10/Fluct10.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct08/Fluct08.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct07/Fluct07.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct06/Fluct06.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct05/Fluct05.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct04/Fluct04.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct03/Fluct03.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Fluct02/Fluct02.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:Fluct01/Fluct01.xcodeproj">
+   </FileRef>
+</Workspace>
